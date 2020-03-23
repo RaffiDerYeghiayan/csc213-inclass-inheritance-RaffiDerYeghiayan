@@ -6,4 +6,11 @@
 
 int main()
 {
+	//Shape s1;
+	//twoD d2;
+	//threeD d3;
+	twoD d(5.2, "twoD");
+	cout << d.getsize() << endl;
+	cout << d.getName() << endl;
+	return 0;
 }
